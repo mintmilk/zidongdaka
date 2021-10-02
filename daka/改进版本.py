@@ -20,9 +20,9 @@ def webclick():
         d.get("https://ehall.yzu.edu.cn/infoplus/form/XNYQSB/start")
         d.find_element_by_id("username").click()
         d.find_element_by_id("username").clear()
-        d.find_element_by_id("username").send_keys("MZ120201331")
+        d.find_element_by_id("username").send_keys("学号")
         d.find_element_by_id("password").clear()
-        d.find_element_by_id("password").send_keys("@WA3es4rd")
+        d.find_element_by_id("password").send_keys("密码")
         d.find_element_by_xpath("/html/body/div/div[2]/div/div/div[2]/div/div/div/div[2]/form[1]/div[5]/input").click()
         print('账号登入')
         d.find_element_by_id("preview_start_button").click()
@@ -70,10 +70,10 @@ def webclick():
 
 def send_email(a):
     # 发送邮件，需要第三方的smtp服务器，这里的密码是在邮箱网站申请授权码，不是自己的登录密码
-    mail_user = '13218820256@163.com'
-    mail_pass = 'AKTXLNBXMOKXGNCR'
+    mail_user = '邮箱'
+    mail_pass = 'key'
     # 接收邮件，可设置为你的其他邮箱
-    receivers = ['MZ120201331@yzu.edu.cn,']
+    receivers = ['收件邮箱,']
 
     # 邮件内容，文本格式，把plain改成html是html格式
     message = MIMEText('%s 今天也要加油哦！'%(a), 'plain', 'utf-8')
