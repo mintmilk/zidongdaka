@@ -11,6 +11,6 @@
 
    > apt-get install chromium-chromedriver
 
-   修改学号密码即可运行。
+   修改学号密码，配置收发邮箱即可运行。
 * windows环境：
-   安装selenuim，更改驱动位置，修改学号密码
+   安装selenuim，更改驱动位置，修改学号密码，配置收发邮箱。
