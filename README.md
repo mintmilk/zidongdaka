@@ -5,12 +5,12 @@
 
 # 使用方法：
 * ubuntu环境：
-pip 安装 selenuim
+   * pip 安装 selenuim
 
-apt 工具安装 chromedrive：
+   * apt 工具安装 chromedrive：
 
-> apt-get install chromium-chromedriver
+   > apt-get install chromium-chromedriver
 
-修改学号密码即可运行。
+   修改学号密码即可运行。
 * windows环境：
-安装selenuim，更改驱动位置，修改学号密码
+   安装selenuim，更改驱动位置，修改学号密码
